@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/**/*.csv
+data/**/*.tsv
+data/**/*.txt
+data/**/*.xlsx
+data/**/*.gz
+data/**/*.zip
+data/**/*.h5
+data/**/*.hdf5
+data/**/*.parquet
+!data/README.md
+**.gz
+
+#Salidas
+outputs/**
+outputs_busqueda_escenarios/**
+outputs_correccion_multiple/**
+outputs_enriquecimiento/**
+outputs_iou_refinado/**
+
+# Generated intermediate matrices
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
